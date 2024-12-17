@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: 1.apk
+apkFileName: CarrierConfig.apk
 compressionType: false
 doNotCompress:
 - classes.dex
