@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.android.carrierconfig" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:allowBackup="false" android:directBootAware="true" android:extractNativeLibs="true" android:usesNonSdkApi="true">
+        <service android:name=".PeriodicJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name=".DefaultCarrierConfigService" android:permission="android.permission.BIND_CARRIER_SERVICES">
+            <intent-filter>
+                <action android:name="android.service.carrier.CarrierService"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name=".OnlineCarrierConfigReceiver">
+            <intent-filter>
+                <action android:name="android.carrier.action.ONLINE_CARRIER_CONFIG_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

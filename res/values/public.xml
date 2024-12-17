@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="string" name="sku_filter" id="0x7f010000" />
+    <public type="xml" name="nt_carrier_name" id="0x7f020000" />
+    <public type="xml" name="product" id="0x7f020001" />
+    <public type="xml" name="vendor" id="0x7f020002" />
+    <public type="xml" name="vendor_no_sim" id="0x7f020003" />
+    <public type="xml" name="vendor_nt" id="0x7f020004" />
+</resources>
