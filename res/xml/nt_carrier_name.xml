@@ -32,6 +32,9 @@
     </carrier_config>
     <carrier_config cid="1365" name="Proximus">
         <string name="carrier_name_string">Proximus</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="Mobile Vikings" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2150" name="Telenet">
         <string name="carrier_name_string">Telenet</string>
@@ -89,6 +92,9 @@
     </carrier_config>
     <carrier_config cid="1466" name="3">
         <string name="carrier_name_string">3 DK</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="OiSTER" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1463" name="TDC">
         <string name="carrier_name_string">TDC</string>
@@ -128,36 +134,146 @@
     </carrier_config>
     <carrier_config cid="27" name="SFR">
         <string name="carrier_name_string">F SFR</string>
+        <string-array name="nt_mvno_string_array" num="3">
+            <item value="REGLO Mobile" />
+            <item value="Prixtel" />
+            <item value="Coriolis." />
+        </string-array>
     </carrier_config>
     <carrier_config cid="3" name="DT">
         <string name="carrier_name_string">Telekom.de</string>
+        <string-array name="nt_mvno_string_array" num="4">
+            <item value="ja! mobil" />
+            <item value="PENNY MOBIL" />
+            <item value="HIGH" />
+            <item value="klarmobil" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2395" name="DT">
         <string name="carrier_name_string">Telekom.de</string>
+        <string-array name="nt_mvno_string_array" num="4">
+            <item value="ja! mobil" />
+            <item value="PENNY MOBIL" />
+            <item value="HIGH" />
+            <item value="klarmobil" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1453" name="O2">
         <string name="carrier_name_string">o2-de</string>
+        <string-array name="nt_mvno_string_array" num="10">
+            <item value="winSIM" />
+            <item value="MEDIONmobile" />
+            <item value="MEDION Mobile" />
+            <item value="Tchibo" />
+            <item value="FONIC+" />
+            <item value="freenet" />
+            <item value="mobilcom-debitel" />
+            <item value="freenet FUNK" />
+            <item value="Netz" />
+            <item value="OiSTER" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1454" name="O2">
         <string name="carrier_name_string">o2-de</string>
+        <string-array name="nt_mvno_string_array" num="10">
+            <item value="winSIM" />
+            <item value="MEDIONmobile" />
+            <item value="MEDION Mobile" />
+            <item value="Tchibo" />
+            <item value="FONIC+" />
+            <item value="freenet" />
+            <item value="mobilcom-debitel" />
+            <item value="freenet FUNK" />
+            <item value="Netz" />
+            <item value="OiSTER" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1456" name="O2">
         <string name="carrier_name_string">o2-de</string>
+        <string-array name="nt_mvno_string_array" num="10">
+            <item value="winSIM" />
+            <item value="MEDIONmobile" />
+            <item value="MEDION Mobile" />
+            <item value="Tchibo" />
+            <item value="FONIC+" />
+            <item value="freenet" />
+            <item value="mobilcom-debitel" />
+            <item value="freenet FUNK" />
+            <item value="Netz" />
+            <item value="OiSTER" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2360" name="O2">
         <string name="carrier_name_string">o2-de</string>
+        <string-array name="nt_mvno_string_array" num="10">
+            <item value="winSIM" />
+            <item value="MEDIONmobile" />
+            <item value="MEDION Mobile" />
+            <item value="Tchibo" />
+            <item value="FONIC+" />
+            <item value="freenet" />
+            <item value="mobilcom-debitel" />
+            <item value="freenet FUNK" />
+            <item value="Netz" />
+            <item value="OiSTER" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2361" name="O2">
         <string name="carrier_name_string">o2-de</string>
+        <string-array name="nt_mvno_string_array" num="10">
+            <item value="winSIM" />
+            <item value="MEDIONmobile" />
+            <item value="MEDION Mobile" />
+            <item value="Tchibo" />
+            <item value="FONIC+" />
+            <item value="freenet" />
+            <item value="mobilcom-debitel" />
+            <item value="freenet FUNK" />
+            <item value="Netz" />
+            <item value="OiSTER" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="25" name="Vodafone">
         <string name="carrier_name_string">vodafone.de</string>
+        <string-array name="nt_mvno_string_array" num="10">
+            <item value="1&amp;1" />
+            <item value="LIDL Connect" />
+            <item value="klarmobil" />
+            <item value="SIMon mobile" />
+            <item value="otelo.de" />
+            <item value="freenet" />
+            <item value="TKS easyMobile" />
+            <item value="otelo" />
+            <item value="WEtell" />
+            <item value="Willkommen" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2397" name="Vodafone">
         <string name="carrier_name_string">vodafone.de</string>
+        <string-array name="nt_mvno_string_array" num="10">
+            <item value="1&amp;1" />
+            <item value="LIDL Connect" />
+            <item value="klarmobil" />
+            <item value="SIMon mobile" />
+            <item value="otelo.de" />
+            <item value="freenet" />
+            <item value="TKS easyMobile" />
+            <item value="otelo" />
+            <item value="WEtell" />
+            <item value="Willkommen" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2536" name="1&amp;1">
         <string name="carrier_name_string">1&amp;1</string>
+        <string-array name="nt_mvno_string_array" num="7">
+            <item value="winSIM" />
+            <item value="smartmobil.de" />
+            <item value="sim24" />
+            <item value="simplytel" />
+            <item value="sim.de" />
+            <item value="PremiumSIM" />
+            <item value="handyvertrag.de" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="747" name="COSMOTE">
         <string name="carrier_name_string">COSMOTE</string>
@@ -169,7 +285,7 @@
         <string name="carrier_name_string">vf-GR</string>
     </carrier_config>
     <carrier_config cid="1519" name="Wind">
-        <string name="carrier_name_string">WIND GR</string>
+        <string name="carrier_name_string">NOVA</string>
     </carrier_config>
     <carrier_config cid="8" name="DT">
         <string name="carrier_name_string">Telekom HU</string>
@@ -194,6 +310,9 @@
     </carrier_config>
     <carrier_config cid="33" name="TIM">
         <string name="carrier_name_string">TIM</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="CoopVoce" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="29" name="Vodafone">
         <string name="carrier_name_string">vodafone IT</string>
@@ -242,6 +361,10 @@
     </carrier_config>
     <carrier_config cid="1644" name="KPN">
         <string name="carrier_name_string">KPN NL</string>
+        <string-array name="nt_mvno_string_array" num="2">
+            <item value="simyo" />
+            <item value="Lebara" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2468" name="Tele2">
         <string name="carrier_name_string">Odido</string>
@@ -281,9 +404,15 @@
     </carrier_config>
     <carrier_config cid="1670" name="MEO">
         <string name="carrier_name_string">MEO</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="MOCHE" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1668" name="NOS">
         <string name="carrier_name_string">NOS</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="WOO" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="22" name="Vodafone">
         <string name="carrier_name_string">vodafone P</string>
@@ -341,6 +470,10 @@
     </carrier_config>
     <carrier_config cid="679" name="Yoigo">
         <string name="carrier_name_string">Yoigo</string>
+        <string-array name="nt_mvno_string_array" num="2">
+            <item value="MASMOVIL" />
+            <item value="Pepephone" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1691" name="3">
         <string name="carrier_name_string">3 SE</string>
@@ -356,24 +489,41 @@
     </carrier_config>
     <carrier_config cid="1690" name="Telia">
         <string name="carrier_name_string">Telia SE</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="Fello" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1413" name="SUNRISE">
         <string name="carrier_name_string">Sunrise</string>
     </carrier_config>
     <carrier_config cid="16" name="SWISSCOM">
         <string name="carrier_name_string">Swisscom</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="Wingo" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2366" name="SWISSCOM">
         <string name="carrier_name_string">Swisscom</string>
     </carrier_config>
     <carrier_config cid="1505" name="3">
         <string name="carrier_name_string">3 UK</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="honest" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2" name="EE">
         <string name="carrier_name_string">EE</string>
+        <string-array name="nt_mvno_string_array" num="2">
+            <item value="Lycamobile" />
+            <item value="Now" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="718" name="EE">
         <string name="carrier_name_string">EE</string>
+        <string-array name="nt_mvno_string_array" num="2">
+            <item value="Lycamobile" />
+            <item value="Now" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2102" name="BT">
         <string name="carrier_name_string">BT</string>
@@ -416,6 +566,9 @@
     </carrier_config>
     <carrier_config cid="797" name="Cellcom">
         <string name="carrier_name_string">Cellcom</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="GOLAN T" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1633" name="Celcom">
         <string name="carrier_name_string">MY CELCOM</string>
@@ -437,6 +590,10 @@
     </carrier_config>
     <carrier_config cid="1653" name="Globe">
         <string name="carrier_name_string">Globe</string>
+        <string-array name="nt_mvno_string_array" num="2">
+            <item value="GOMO" />
+            <item value="TM" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1654" name="Smart">
         <string name="carrier_name_string">SMART</string>
@@ -479,6 +636,9 @@
     </carrier_config>
     <carrier_config cid="1299" name="mobifone">
         <string name="carrier_name_string">VN Mobifone</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="Local" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1300" name="Vinaphone">
         <string name="carrier_name_string">VinaPhone</string>
@@ -510,14 +670,15 @@
     <carrier_config cid="770" name="GSM7800/Hong Kong CSL Ltd.">
         <string name="carrier_name_string">CSL</string>
     </carrier_config>
-    <carrier_config cid="1526" name="1O1O / csl / Club Sim (HKT)">
-        <string name="carrier_name_string">CSL</string>
-    </carrier_config>
     <carrier_config cid="772" name="Public Mobile Networks/Reserved (HKT)">
         <string name="carrier_name_string">CSL</string>
     </carrier_config>
     <carrier_config cid="1" name="TMO">
         <string name="carrier_name_string">T-Mobile</string>
+        <string-array name="nt_mvno_string_array" num="2">
+            <item value="Mint" />
+            <item value="LycaMobile" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1187" name="AT&amp;T">
         <string name="carrier_name_string">AT&amp;T</string>
@@ -533,6 +694,9 @@
     </carrier_config>
     <carrier_config cid="1894" name="Softbank">
         <string name="carrier_name_string">Softbank</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="LINEMO" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="850" name="Docomo">
         <string name="carrier_name_string">docomo</string>
@@ -557,6 +721,11 @@
     </carrier_config>
     <carrier_config cid="30" name="Opus">
         <string name="carrier_name_string">Optus</string>
+        <string-array name="nt_mvno_string_array" num="3">
+            <item value="amaysim" />
+            <item value="AGL" />
+            <item value="YES OPTUS" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="15" name="Vodafone">
         <string name="carrier_name_string">Vodafone AU</string>
@@ -581,12 +750,21 @@
     </carrier_config>
     <carrier_config cid="802" name="VI">
         <string name="carrier_name_string">Vi India</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="International" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1963" name="VI">
         <string name="carrier_name_string">Vi India</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="International" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2378" name="VI">
         <string name="carrier_name_string">Vi India</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="International" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1619" name="Vodafone">
         <string name="carrier_name_string">epic</string>
@@ -609,32 +787,35 @@
     <carrier_config cid="1737" name="Türk Telekom">
         <string name="carrier_name_string">Turk Telekom</string>
     </carrier_config>
-    <carrier_config cid="1372" name="Batelco">
-        <string name="carrier_name_string">BATELCO</string>
-    </carrier_config>
-    <carrier_config cid="2014" name="Zain Bahrain">
-        <string name="carrier_name_string">Zain BH</string>
-    </carrier_config>
-    <carrier_config cid="2015" name="stc BH">
-        <string name="carrier_name_string">stc</string>
-    </carrier_config>
     <carrier_config cid="1585" name="Zain">
         <string name="carrier_name_string">Zain KW</string>
     </carrier_config>
     <carrier_config cid="1586" name="Ooredoo">
         <string name="carrier_name_string">Ooredoo</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="FRiENDi mobile" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1992" name="STC">
         <string name="carrier_name_string">stc Kuwait</string>
     </carrier_config>
     <carrier_config cid="970" name="Omantel">
         <string name="carrier_name_string">OMANTEL</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="Renna Mobile" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="971" name="Ooredoo">
         <string name="carrier_name_string">Ooredoo</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="FRiENDi mobile" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="1675" name="Ooredoo">
         <string name="carrier_name_string">Ooredoo</string>
+        <string-array name="nt_mvno_string_array" num="1">
+            <item value="FRiENDi mobile" />
+        </string-array>
     </carrier_config>
     <carrier_config cid="2001" name="Vodafone">
         <string name="carrier_name_string">vodafone</string>

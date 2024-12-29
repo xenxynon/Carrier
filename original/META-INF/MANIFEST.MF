@@ -4,16 +4,16 @@ Name: AndroidManifest.xml
 SHA-256-Digest: 2vxyQgG5oRiZAVjDcH0GG2bIt7yKJsbrF+PgRyiPX4o=
 
 Name: res/xml/nt_carrier_name.xml
-SHA-256-Digest: ImTHVZc00LDId/cxDcXeRGinsmyD85ZIkjVP8zwteVs=
+SHA-256-Digest: gPOFZVgyMCfK01vj7AuWMptB/SygW4e5VEnSfsBlRSg=
 
 Name: res/xml/vendor.xml
 SHA-256-Digest: YQ4Vu3ulSKHaugCZVECVDU42OhOgX1IgLoGXRgaRA3g=
 
 Name: res/xml/vendor_mtk.xml
-SHA-256-Digest: QY5rmBM0wQLDFqwQgQ9f3MWpnsN1dQTE75JM8yMPW0g=
+SHA-256-Digest: nTBlLzR5eXnM63scqwe/2X7c+bf2BIhTbtbKsv0Pp8c=
 
 Name: res/xml/vendor_nt.xml
-SHA-256-Digest: gWf06Quz+dHLBjdRijc95jfHdX5VX2R0bOzVsJ8vlsM=
+SHA-256-Digest: QAaTEChTOwfJaY5SQEtoDnSMaSa1aZ1rpzDv8w9PJAU=
 
 Name: res/xml/vendor_qcom.xml
 SHA-256-Digest: 7IycNVdZwX26WMIMyQ9xioHzoTTBzEnNWtXRDQXY7XA=
