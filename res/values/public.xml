@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="xml" name="nt_carrier_name" id="0x7f010000" />
+    <public type="xml" name="vendor" id="0x7f010001" />
+    <public type="xml" name="vendor_mtk" id="0x7f010002" />
+    <public type="xml" name="vendor_nt" id="0x7f010003" />
+    <public type="xml" name="vendor_qcom" id="0x7f010004" />
+</resources>

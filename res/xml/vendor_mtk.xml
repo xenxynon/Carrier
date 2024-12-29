@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config cid="1890" name="KT">
+        <boolean name="carrier_vt_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1891" name="SK Telecom">
+        <boolean name="carrier_vt_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1892" name="LG U+">
+        <boolean name="carrier_vt_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="2018" name="JIO">
+        <boolean name="mtk_resume_hold_call_after_active_call_end_by_remote" value="true" />
+    </carrier_config>
+</carrier_config_list>
