@@ -1,23 +1,21 @@
-!!brut.androlib.meta.MetaInfo
-apkFileName: cc.apk
-compressionType: false
-doNotCompress:
-- resources.arsc
+version: 2.10.0
+apkFileName: CarrierConfig_Sys_All.apk
 isFrameworkApk: false
-packageInfo:
-  forcedPackageId: '127'
-  renameManifestPackage: null
-sdkInfo:
-  minSdkVersion: '34'
-  targetSdkVersion: '34'
-sharedLibrary: false
-sparseResources: false
-unknownFiles: {}
 usesFramework:
   ids:
   - 1
   tag: null
-version: 2.5.0-dirty
+sdkInfo:
+  minSdkVersion: 35
+  targetSdkVersion: 35
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
 versionInfo:
-  versionCode: '34'
-  versionName: '14'
+  versionCode: 35
+  versionName: 15
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+doNotCompress:
+- resources.arsc

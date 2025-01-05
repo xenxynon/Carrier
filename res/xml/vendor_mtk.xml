@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carrier_config_list>
+    <carrier_config>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:1:900000:1:-105:-105:1</string>
+    </carrier_config>
+    <carrier_config mcc="454" mnc="07" name="CU-CSL">
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+    </carrier_config>
+    <carrier_config mcc="454" mnc="20" name="CSL">
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+    </carrier_config>
+    <carrier_config cid="759" name="3G Radio System/HKCSL3G">
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+    </carrier_config>
+    <carrier_config cid="765" name="GSM1800New World PCS Ltd.">
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+    </carrier_config>
+    <carrier_config cid="769" name="PCCW">
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+    </carrier_config>
+    <carrier_config cid="770" name="GSM7800/Hong Kong CSL Ltd.">
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+    </carrier_config>
+    <carrier_config cid="1526" name="1O1O / csl / Club Sim">
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+    </carrier_config>
     <carrier_config cid="1890" name="KT">
         <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
@@ -11,6 +35,12 @@
     </carrier_config>
     <carrier_config cid="2018" name="JIO">
         <boolean name="mtk_resume_hold_call_after_active_call_end_by_remote" value="true" />
+    </carrier_config>
+    <carrier_config cid="2450" name="SUN Mobile">
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+    </carrier_config>
+    <carrier_config cid="2581" name="DITO">
+        <boolean name="mtk_wos_flight_mode_support_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2429" name="Rakuten Mobile(MNO)">
         <string name="5g_icon_configuration_string">connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G</string>
