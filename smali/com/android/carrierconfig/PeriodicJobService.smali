@@ -78,9 +78,9 @@
 
     if-eqz v2, :cond_0
 
+    .line 29
     const-string p0, "download job already scheduled."
 
-    .line 29
     invoke-static {v3, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
@@ -137,17 +137,17 @@
 
     if-eq p0, p1, :cond_1
 
+    .line 42
     const-string p0, "schedule download job failed!"
 
-    .line 42
     invoke-static {v3, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
+    .line 44
     :cond_1
     const-string p0, "schedule download job"
 
-    .line 44
     invoke-static {v3, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0

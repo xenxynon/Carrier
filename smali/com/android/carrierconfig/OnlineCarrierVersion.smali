@@ -1,4 +1,4 @@
-.class public Lcom/android/carrierconfig/OnlineCarrierVersion;
+.class public abstract Lcom/android/carrierconfig/OnlineCarrierVersion;
 .super Ljava/lang/Object;
 .source "OnlineCarrierVersion.java"
 
@@ -15,9 +15,9 @@
 
     move-result-object p0
 
+    .line 17
     const-string v1, "online_config_last_version_key"
 
-    .line 17
     invoke-interface {p0, v1, v0}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
     move-result p0
@@ -83,9 +83,9 @@
 
     move-result-object p0
 
+    .line 29
     const-string v0, "online_config_last_version_key"
 
-    .line 29
     invoke-interface {p0, v0, p1}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
     move-result-object p0

@@ -6,17 +6,6 @@
 .implements Ljava/lang/Runnable;
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/carrierconfig/CarrierConfigDownloadTask;->downloadFileFromServer(Ljava/net/URL;Landroid/app/job/JobParameters;I)V
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
-    name = null
-.end annotation
-
-
 # instance fields
 .field final synthetic this$0:Lcom/android/carrierconfig/CarrierConfigDownloadTask;
 
@@ -30,11 +19,6 @@
 # direct methods
 .method constructor <init>(Lcom/android/carrierconfig/CarrierConfigDownloadTask;Ljava/net/URL;Landroid/app/job/JobParameters;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 33
     iput-object p1, p0, Lcom/android/carrierconfig/CarrierConfigDownloadTask$1;->this$0:Lcom/android/carrierconfig/CarrierConfigDownloadTask;
@@ -55,9 +39,9 @@
 .method public run()V
     .locals 4
 
+    .line 36
     const-string v0, "CarrierConfigDownloadTask"
 
-    .line 36
     :try_start_0
     iget-object v1, p0, Lcom/android/carrierconfig/CarrierConfigDownloadTask$1;->this$0:Lcom/android/carrierconfig/CarrierConfigDownloadTask;
 
@@ -69,9 +53,9 @@
 
     if-eqz v1, :cond_0
 
+    .line 37
     const-string v1, "Download success"
 
-    .line 37
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 38
@@ -114,9 +98,9 @@
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
+    .line 42
     const-string v2, "version"
 
-    .line 42
     iget v3, p0, Lcom/android/carrierconfig/CarrierConfigDownloadTask$1;->val$carrierUpdateVersion:I
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
