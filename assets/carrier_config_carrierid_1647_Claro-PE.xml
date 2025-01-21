@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string-array name="carrier_certificate_string_array" num="1">
+      <item value="7D7226772D4F6D778FEF53A36BE15AD78D8D9D4BC4CE00C5F2E3216C19480FA0"/>
+    </string-array>
+    <!-- Values for GPS configuration -->
+    <string name="gps.supl_host"></string>
+    <string name="gps.supl_port"></string>
+    <string name="gps.supl_ver">0x20000</string>
+    <string name="gps.supl_mode">0</string>
+    <string name="gps.supl_es">0</string>
+    <string name="gps.lpp_profile">0</string>
+    <string name="gps.use_emergency_pdn_for_emergency_supl">0</string>
+    <string name="gps.a_glonass_pos_protocol_select">2</string>
+    <string name="gps.gps_lock">0</string>
+</carrier_config>

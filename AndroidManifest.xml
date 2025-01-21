@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.android.carrierconfig" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <application android:allowBackup="false" android:directBootAware="true" android:extractNativeLibs="true" android:usesNonSdkApi="true">
+        <service android:exported="true" android:name="com.android.carrierconfig.DefaultCarrierConfigService" android:permission="android.permission.BIND_CARRIER_SERVICES">
+            <intent-filter>
+                <action android:name="android.service.carrier.CarrierService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
