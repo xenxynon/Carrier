@@ -1,4 +1,4 @@
-version: 2.10.0
+version: 2.11.0
 apkFileName: CarrierConfig_Sys_All.apk
 isFrameworkApk: false
 usesFramework:
@@ -14,8 +14,8 @@ packageInfo:
 versionInfo:
   versionCode: 35
   versionName: 15
-resourcesAreCompressed: false
 sharedLibrary: false
 sparseResources: false
+compactEntries: false
 doNotCompress:
-- resources.arsc
+- arsc

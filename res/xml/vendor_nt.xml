@@ -40,7 +40,7 @@
         <boolean name="hide_enable_2g_bool" value="true" />
         <boolean name="nt_verify_cnap_name_display_bool" value="false" />
         <long name="nt_delay_show_nw_monitor_fail_icon_timer_long" value="0" />
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:1:900000:1:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:1:900000:1:-105:-105:0</string>
         <int name="lte_plus_threshold_bandwidth_khz_int" value="0" />
         <boolean name="nt_hide_mms_toggle_bool" value="true" />
         <boolean name="support_tdscdma_bool" value="false" />
@@ -134,7 +134,7 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="454" mnc="07" name="CU-CSL">
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>
     </carrier_config>
     <carrier_config mcc="454" mnc="19" name="Hello" spn="Hello">
         <string-array name="nt_manual_nw_name_strings_array" num="1">
@@ -142,7 +142,7 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="454" mnc="20" name="CSL">
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>
     </carrier_config>
     <carrier_config mcc="455" mnc="02">
         <boolean name="nt_carrier_enhance_nr_icon_bool" value="true" />
@@ -204,6 +204,8 @@
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true" />
         <boolean name="nt_carrier_default_sa_enabled_bool" value="true" />
+        <boolean name="vonr_on_by_default_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="false" />
     </carrier_config>
     <carrier_config cid="3" name="Telekom Deutschland (DE)">
         <boolean name="editable_wfc_mode_bool" value="false" />
@@ -894,6 +896,7 @@
     <carrier_config cid="30" name="Optus">
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="nt_hide_3G_mode_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
     </carrier_config>
     <carrier_config cid="31" name="Singtel">
         <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
@@ -923,6 +926,7 @@
     <carrier_config cid="33" name="TIM">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
+        <boolean name="nt_conf_number_mapping_for_anonymous_bool" value="true" />
     </carrier_config>
     <carrier_config cid="34" name="Movistar">
         <boolean name="groupChatDefaultsToMMS" value="false" />
@@ -1062,7 +1066,7 @@
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>
     </carrier_config>
     <carrier_config cid="765" name="GSM1800New World PCS Ltd.">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1075,7 +1079,7 @@
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>
     </carrier_config>
     <carrier_config cid="769" name="PCCW">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1088,7 +1092,7 @@
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>
     </carrier_config>
     <carrier_config cid="770" name="GSM7800/Hong Kong CSL Ltd.">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1101,7 +1105,7 @@
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>
     </carrier_config>
     <carrier_config cid="772" name="Public Mobile Networks/Reserved">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1479,7 +1483,6 @@
         <string name="vvm_destination_number_string">901</string>
         <string name="default_vm_number_string">901</string>
         <boolean name="call_barring_visibility_bool" value="true" />
-        <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="hide_carrier_name_extra_bool" value="true" />
@@ -1490,6 +1493,7 @@
         <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <string name="nt_carrier_ims_user_agent_string">Telefonica VoLTE</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config cid="1505" name="Three Mobile">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
@@ -1521,7 +1525,7 @@
             <item value="supl" />
         </string-array>
         <boolean name="nt_carrier_nsa_cell_cache_bool" value="false" />
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>
     </carrier_config>
     <carrier_config cid="1529" name="Telemach">
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
@@ -1993,7 +1997,7 @@
         <boolean name="nt_hide_3G_mode_bool" value="true" />
         <boolean name="vonr_enabled_bool" value="true" />
         <boolean name="vonr_on_by_default_bool" value="true" />
-        <string name="nt_ims_recovery_settings_string">1:7200000:30000:5000:30000</string>
+        <string name="nt_ims_recovery_settings_string">1:1800000:30000:5000:30000</string>
         <string-array name="nt_manual_nw_name_strings_array" num="2">
             <item value="8:::Jio True5G" />
             <item value="4::Jio True5G:IND-JIO" />
@@ -2492,7 +2496,7 @@
             <item value="1" />
         </int-array>
         <boolean name="hide_ims_apn_bool" value="false" />
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>
     </carrier_config>
     <carrier_config cid="2468" name="Odido">
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />

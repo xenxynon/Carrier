@@ -757,9 +757,6 @@
     <carrier_config cid="1684" name="Mobily">
         <string name="carrier_name_string">mobily</string>
     </carrier_config>
-    <carrier_config cid="1683" name="STC">
-        <string name="carrier_name_string">stc</string>
-    </carrier_config>
     <carrier_config cid="1972" name="Zain">
         <string name="carrier_name_string">Zain KSA</string>
     </carrier_config>
