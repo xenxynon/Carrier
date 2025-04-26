@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carrier_config_list>
     <carrier_config>
-        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:1:900000:1:-105:-105:0</string>
+        <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:1:900000:1:-105:-105:1</string>
     </carrier_config>
     <carrier_config mcc="454" mnc="07" name="CU-CSL">
         <string name="nt_carrier_deep_sleep_power_opt_settings_string">1:1:5:900000:0:900000:0:-105:-105:0</string>

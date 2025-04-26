@@ -705,9 +705,6 @@
     <carrier_config cid="1630" name="Digi">
         <string name="carrier_name_string">Digi</string>
     </carrier_config>
-    <carrier_config cid="1632" name="Umobile">
-        <string name="carrier_name_string">U Mobile</string>
-    </carrier_config>
     <carrier_config cid="2038" name="Unifi - P1/Webe">
         <string name="carrier_name_string">unifi</string>
         <string-array name="nt_mvno_string_array" num="1">
@@ -1025,10 +1022,11 @@
     </carrier_config>
     <carrier_config cid="969" name="2degrees">
         <string name="carrier_name_string">2degrees</string>
-        <string-array name="nt_mvno_string_array" num="3">
+        <string-array name="nt_mvno_string_array" num="4">
             <item value="Nova" />
             <item value="WHM" />
             <item value="Nova NZ" />
+            <item value="Warehouse Mobile" />
         </string-array>
     </carrier_config>
     <carrier_config cid="2105" name="Skinny">

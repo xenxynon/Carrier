@@ -1,22 +1,22 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA-256-Digest-Manifest: ahterQnLykDL/OP93Y0LgmumNnTUdeEdhKBsosNpxBc=
+SHA-256-Digest-Manifest: ODsto74HEr4nyuML95nenB79bCB+Z7RFkifyZnxiaOo=
 X-Android-APK-Signed: 2, 3
 
 Name: AndroidManifest.xml
 SHA-256-Digest: QYDb6282JHoqsBKkoJ5B4lRlpy3d6u5C1vb6hF+8TuA=
 
 Name: res/xml/nt_carrier_name.xml
-SHA-256-Digest: gQZ+cbkV+liPamt8Ty4ZtHG/ZFy79wBpNJYllS8kujs=
+SHA-256-Digest: 9oe39YxW0lkpaZqd6/p7k8C94fX4cboposKoFsJ73h8=
 
 Name: res/xml/vendor.xml
 SHA-256-Digest: o1msvJQoMsrFEZPz2+biirLGv6pzxCoz/BvFlXBeh+0=
 
 Name: res/xml/vendor_mtk.xml
-SHA-256-Digest: TNaFkVhIn8epd6osYsSnqdV30mZAr8grNrjInEjeW/c=
+SHA-256-Digest: vOB4EVvtKnKYz5jiqxLjBHIbxIUFjdWzGAGTr1iXJDU=
 
 Name: res/xml/vendor_nt.xml
-SHA-256-Digest: X/9JzQ1L67a4xreyQ8bG84zMOtCoZgPjJbqosr1ZchU=
+SHA-256-Digest: deByYhbOP9H/JXVVem8VumjI5O6AW2kp8tWJBmCMEWE=
 
 Name: res/xml/vendor_qcom.xml
 SHA-256-Digest: 1IzlYQieNq0yHQMQ8aA5j8tPzLuvTvn4uMAmJLSFWtc=
